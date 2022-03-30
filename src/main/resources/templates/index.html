@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
+<a href="/add" class="btn btn-primary">Add Book</a>
+<a href="/booklist" class="btn btn-primary">Books</a>
+</body>
+</html>
